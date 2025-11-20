@@ -1,4 +1,4 @@
-# CoaChess - Chess Coaching Platform
+# Smart Chess Academy - Chess Coaching Platform
 
 A scalable MVP platform for chess coaches to deliver custom content (PGN/FEN lessons and puzzles), connect with players, assign content, track progress, and communicate in real-time.
 
@@ -76,28 +76,46 @@ coachess/
 └── PROJECT_PLAN.md             # Detailed development plan
 ```
 
-## MVP Features (Phase 1)
+## MVP Features - Current Status
 
-### Core Platform & Connection
+### ✅ Phase 1: Core Platform & Authentication (COMPLETE)
 - ✅ User roles (Coach, Player, Admin) with Supabase Auth
 - ✅ User profiles with timezone support
-- ✅ Coach-player connection system with invites
 - ✅ Role-based dashboards
+- ✅ Session management with localStorage
 
-### Content Creation
-- 🚧 PGN/FEN content editor
-- 🚧 Interactive chess board viewer
-- 🚧 Content library management
+### ✅ Phase 2: Content Creation & Management (COMPLETE)
+- ✅ PGN/FEN content editor with live validation
+- ✅ Interactive chess board viewer with playback controls
+- ✅ Content library management (CRUD operations)
+- ✅ Search and filter functionality
+- ✅ Support for lessons (PGN) and puzzles (FEN)
 
-### Assignment & Tracking
+### ✅ Phase 3: Connection & Invite System (COMPLETE)
+- ✅ Coach-player connection system with unique invite tokens
+- ✅ Invite creation and sharing
+- ✅ Invite acceptance flow
+- ✅ Connection status management (pending/accepted/revoked)
+- ✅ Connection library for coaches
+
+### 🚧 Phase 4: Assignments & Tracking (IN PROGRESS)
 - 🚧 Content assignment flow
-- 🚧 Player assignment view
+- 🚧 Player assignment dashboard
 - 🚧 Progress tracking (assigned → completed)
 - 🚧 Coach tracking dashboard
+- 🚧 Realtime notifications
 
-### Communication
+### 🚧 Phase 5: Communication & Polish (PLANNED)
 - 🚧 Real-time messaging between coach and player
-- 🚧 Simple manual scheduling notes
+- 🚧 Message history and unread counts
+- 🚧 Session scheduling interface
+- 🚧 UX polish and refinements
+
+### 🚧 Phase 6: Testing & Deployment (PLANNED)
+- 🚧 Unit tests with Jest
+- 🚧 E2E tests with Playwright
+- 🚧 CI/CD pipeline setup
+- 🚧 Production deployment to Vercel
 
 ## Development Roadmap
 
